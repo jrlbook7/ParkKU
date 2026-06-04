@@ -1,0 +1,901 @@
+
+
+{
+    "central_district" : [
+        {
+            "id":"lot_name",
+            "name":"lot_name - Campus Region",
+            "type" : "permit/paid",
+            "polygon": "coords",
+            "permit_types": ["S", "A"],
+            "regular_schedule": {
+                "monday-friday" : {"student_access_after": "17:00"},
+                "weekend" : {"student_access": true}
+            },
+            "semester_overrides" : {
+                "summer" : {"student_access" : true, "all_day": true},
+                "finals_week" : {"student_access": false}
+            },
+            "manual_override" : null
+        },
+    ],
+
+
+
+    "north_district" : [
+        {
+            "id":"lot_111",
+            "name":"lot_111 - North District",
+            "type" : "permit",
+            "polygon": [[
+      [
+        [
+          -95.24278071351375,
+          38.964877321372
+        ],
+        [
+          -95.24234051661055,
+          38.964877321372
+        ],
+        [
+          -95.24234051661055,
+          38.964087470048014
+        ],
+        [
+          -95.24278071351375,
+          38.964087470048014
+        ],
+        [
+          -95.24278071351375,
+          38.964877321372
+        ]
+      ]
+    ],[
+      [
+        [
+          -95.242111952834,
+          38.96458112815773
+        ],
+        [
+          -95.24168445391888,
+          38.96458112815773
+        ],
+        [
+          -95.24168445391888,
+          38.964038104047916
+        ],
+        [
+          -95.242111952834,
+          38.964038104047916
+        ],
+        [
+          -95.242111952834,
+          38.96458112815773
+        ]
+      ]
+    ],[
+      [
+        [
+          -95.2409564,
+          38.9655157
+        ],
+        [
+          -95.2409564,
+          38.9649134
+        ],
+        [
+          -95.2407998,
+          38.9648937
+        ],
+        [
+          -95.2408125,
+          38.964716
+        ],
+        [
+          -95.2408971,
+          38.9647193
+        ],
+        [
+          -95.2408294,
+          38.9645284
+        ],
+        [
+          -95.2406559,
+          38.9645383
+        ],
+        [
+          -95.240732,
+          38.9655157
+        ],
+        [
+          -95.2409564,
+          38.9655157
+        ]
+      ]
+    ]],
+            "permit_types": ["Student"],
+            "regular_schedule": {
+                "monday-friday" : [{"free_access_after": "17:00"},{"permit_parking": "07:00-17:00"}],
+                "weekend" : {"student_access": true}
+            },
+            "semester_overrides" : {
+                "summer" : {"student_access" : true, "all_day": true},
+                "finals_week" : {"student_access": false}
+            },
+            "manual_override" : null            
+        },
+        {
+            "id":"lot_51",
+            "name":"lot_51 - North District",
+            "type" : "permit",
+            "polygon": [
+      [
+        [
+          -95.25100431892568,
+          38.96412720817236
+        ],
+        [
+          -95.25057536944978,
+          38.96412720817236
+        ],
+        [
+          -95.25057536944978,
+          38.9640023590195
+        ],
+        [
+          -95.25100431892568,
+          38.9640023590195
+        ],
+        [
+          -95.25100431892568,
+          38.96412720817236
+        ]
+      ]
+    ],
+            "permit_types": ["Staff and Faculty"],
+            "regular_schedule": {
+                "monday-friday" : [{"free_access_after": "17:00"},{"permit_parking": "07:00-17:00"}],
+                "weekend" : {"student_access": true}
+            },
+            "semester_overrides" : {
+                "summer" : {"student_access" : false, "all_day": false},
+                "finals_week" : {"student_access": false}
+            },
+            "manual_override" : null            
+        },
+        {
+            "id":"lot_11East",
+            "name":"lot_11East - North District",
+            "type" : "permit",
+            "polygon": [
+        [
+            [
+            -95.25074684794765,
+            38.96334507170556
+            ],
+            [
+            -95.2505539661437,
+            38.96334507170556
+            ],
+            [
+            -95.2505539661437,
+            38.962952828469156
+            ],
+            [
+            -95.25074684794765,
+            38.962952828469156
+            ],
+            [
+            -95.25074684794765,
+            38.96334507170556
+            ]
+        ]
+    ],
+            "permit_types": ["Staff and Faculty"],
+            "regular_schedule": {
+                "monday-friday" : [{"free_access_after": "17:00"},{"permit_parking": "07:00-17:00"}],
+                "weekend" : {"student_access": true}
+            },
+            "semester_overrides" : {
+                "summer" : {"student_access" : false, "all_day": false},
+                "finals_week" : {"student_access": false}
+            },
+            "manual_override" : null            
+        },
+        {
+            "id":"lot_11West",
+            "name":"lot_11West - North District",
+            "type" : "permit",
+            "polygon": [
+        [
+            [
+            -95.25093972975161,
+            38.96335660823834
+            ],
+            [
+            -95.25076168500934,
+            38.96335660823834
+            ],
+            [
+            -95.25076168500934,
+            38.96294706017045
+            ],
+            [
+            -95.25093972975161,
+            38.96294706017045
+            ],
+            [
+            -95.25093972975161,
+            38.96335660823834
+            ]
+        ]
+    ],
+            "permit_types": ["Staff and Faculty"],
+            "regular_schedule": {
+                "monday-friday" : [{"free_access_after": "17:00"},{"permit_parking": "07:00-17:00"}],
+                "weekend" : {"student_access": true}
+            },
+            "semester_overrides" : {
+                "summer" : {"student_access" : false, "all_day": false},
+                "finals_week" : {"student_access": false}
+            },
+            "manual_override" : null            
+        },
+        {
+            "id":"lot_1",
+            "name":"lot_1 - North District",
+            "type" : "permit",
+            "polygon": [
+        [
+            [
+            -95.2507577802607,
+            38.96033485156491
+            ],
+            [
+            -95.2504969009703,
+            38.96033485156491
+            ],
+            [
+            -95.2504969009703,
+            38.96190284773425
+            ],
+            [
+            -95.2507577802607,
+            38.96190284773425
+            ],
+            [
+            -95.2507577802607,
+            38.96033485156491
+            ]
+        ]
+    ],
+            "permit_types": ["Staff and Faculty"],
+            "regular_schedule": {
+                "monday-friday" : [{"free_access_after": "17:00"},{"permit_parking": "07:00-17:00"}],
+                "weekend" : {"student_access": true}
+            },
+            "semester_overrides" : {
+                "summer" : {"student_access" : false, "all_day": false},
+                "finals_week" : {"student_access": false}
+            },
+            "manual_override" : null            
+        },
+        {
+            "id":"lot_52",
+            "name":"lot_52 - North District",
+            "type" : "permit",
+            "polygon": [
+        [
+            [
+            -95.2501963,
+            38.9632793
+            ],
+            [
+            -95.2503608,
+            38.963275
+            ],
+            [
+            -95.2503389,
+            38.9628657
+            ],
+            [
+            -95.250147,
+            38.962499
+            ],
+            [
+            -95.2500647,
+            38.962175
+            ],
+            [
+            -95.2502569,
+            38.9614836
+            ],
+            [
+            -95.2504765,
+            38.9603835
+            ],
+            [
+            -95.2504033,
+            38.9603456
+            ],
+            [
+            -95.2500546,
+            38.9613319
+            ],
+            [
+            -95.2498761,
+            38.9619862
+            ],
+            [
+            -95.2496976,
+            38.9627992
+            ],
+            [
+            -95.2501948,
+            38.9628388
+            ],
+            [
+            -95.2501963,
+            38.9632793
+            ]
+        ]
+    ],
+            "permit_types": ["Staff and Faculty"],
+            "regular_schedule": {
+                "monday-friday" : [{"free_access_after": "16:00"},{"permit_parking": "07:00-16:00"}],
+                "weekend" : {"student_access": true}
+            },
+            "semester_overrides" : {
+                "summer" : {"student_access" : false, "all_day": false},
+                "finals_week" : {"student_access": false}
+            },
+            "manual_override" : null            
+        },
+        {
+            "id":"lot_50",
+            "name":"lot_50 - North District",
+            "type" : "permit",
+            "polygon": [
+        [
+            [
+            -95.2501634,
+            38.9631087
+            ],
+            [
+            -95.2501689,
+            38.9631727
+            ],
+            [
+            -95.2499386,
+            38.9632196
+            ],
+            [
+            -95.2494451,
+            38.9632153
+            ],
+            [
+            -95.2493299,
+            38.9630917
+            ],
+            [
+            -95.249489,
+            38.9628572
+            ],
+            [
+            -95.2495767,
+            38.9624265
+            ],
+            [
+            -95.2497028,
+            38.9616122
+            ],
+            [
+            -95.249807,
+            38.9614885
+            ],
+            [
+            -95.2499441,
+            38.961544
+            ],
+            [
+            -95.2497905,
+            38.9624308
+            ],
+            [
+            -95.249648,
+            38.9628486
+            ],
+            [
+            -95.2501579,
+            38.9628529
+            ],
+            [
+            -95.2501634,
+            38.9631087
+            ]
+        ]
+    ],
+            "permit_types": ["Staff and Faculty", "Student"],
+            "regular_schedule": {
+                "monday-friday" : [{"free_access_after": "16:00-23:00"},{"permit_parking": "08:00-16:00"}],
+                "weekend" : {"student_access": true}
+            },
+            "semester_overrides" : {
+                "summer" : {"student_access" : false, "all_day": false},
+                "finals_week" : {"student_access": true}
+            },
+            "manual_override" : null            
+        },
+        {
+            "id":"lot_65",
+            "name":"lot_65 - North District",
+            "type" : "permit",
+            "polygon": [
+        [
+            [
+            -95.24829874057299,
+            38.96402572277617
+            ],
+            [
+            -95.24805392905245,
+            38.96402572277617
+            ],
+            [
+            -95.24805392905245,
+            38.963621946820496
+            ],
+            [
+            -95.24829874057299,
+            38.963621946820496
+            ],
+            [
+            -95.24829874057299,
+            38.96402572277617
+            ]
+        ]
+    ],
+            "permit_types": ["Staff and Faculty", "Student"],
+            "regular_schedule": {
+                "monday-friday" : [{"free_access_after": "16:00"},{"permit_parking": "08:00-16:00"}],
+                "weekend" : {"student_access": true}
+            },
+            "semester_overrides" : {
+                "summer" : {"student_access" : false, "all_day": false},
+                "finals_week" : {"student_access": true}
+            },
+            "manual_override" : null            
+        },
+        {
+            "id":"lot_58",
+            "name":"lot_58 - North District",
+            "type" : "permit",
+            "polygon": [
+        [
+            [
+            -95.24797974374334,
+            38.964037259198676
+            ],
+            [
+            -95.24771267663029,
+            38.964037259198676
+            ],
+            [
+            -95.24771267663029,
+            38.96291244920994
+            ],
+            [
+            -95.24797974374334,
+            38.96291244920994
+            ],
+            [
+            -95.24797974374334,
+            38.964037259198676
+            ]
+        ]
+    ],
+            "permit_types": ["Staff and Faculty", "Student"],
+            "regular_schedule": {
+                "monday-friday" : [{"free_access_after": "16:00"},{"permit_parking": "08:00-16:00"}],
+                "weekend" : {"student_access": true}
+            },
+            "semester_overrides" : {
+                "summer" : {"student_access" : false, "all_day": false},
+                "finals_week" : {"student_access": true}
+            },
+            "manual_override" : null            
+        },
+        {
+            "id":"lot_59",
+            "name":"lot_59 - North District",
+            "type" : "permit",
+            "polygon": [
+        [
+            [
+            -95.24798716227417,
+            38.96231831159827
+            ],
+            [
+            -95.24768300250658,
+            38.96231831159827
+            ],
+            [
+            -95.24768300250658,
+            38.962895144301285
+            ],
+            [
+            -95.24798716227417,
+            38.962895144301285
+            ],
+            [
+            -95.24798716227417,
+            38.96231831159827
+            ]
+        ]
+    ],
+            "permit_types": ["Staff and Faculty", "Student"],
+            "regular_schedule": {
+                "monday-friday" : [{"free_access_after": "16:00"},{"permit_parking": "08:00-16:00"}],
+                "weekend" : {"student_access": true}
+            },
+            "semester_overrides" : {
+                "summer" : {"student_access" : false, "all_day": false},
+                "finals_week" : {"student_access": true}
+            },
+            "manual_override" : null            
+        },
+        {
+            "id":"lot_56",
+            "name":"lot_56 - North District",
+            "type" : "permit",
+            "polygon": [
+        [
+            [
+            -95.2494644,
+            38.9612659
+            ],
+            [
+            -95.249138,
+            38.9616524
+            ],
+            [
+            -95.2490267,
+            38.9621427
+            ],
+            [
+            -95.2487893,
+            38.9621369
+            ],
+            [
+            -95.2488932,
+            38.9615716
+            ],
+            [
+            -95.2492641,
+            38.9611159
+            ],
+            [
+            -95.2494644,
+            38.9612659
+            ]
+        ]
+    ],
+            "permit_types": ["Staff and Faculty", "Student"],
+            "regular_schedule": {
+                "monday-friday" : [{"free_access_after": "16:00"},{"permit_parking": "08:00-16:00"}],
+                "weekend" : {"student_access": true}
+            },
+            "semester_overrides" : {
+                "summer" : {"student_access" : false, "all_day": false},
+                "finals_week" : {"student_access": true}
+            },
+            "manual_override" : null            
+        },
+        {
+            "id":"lot_57",
+            "name":"lot_57 - North District",
+            "type" : "permit",
+            "polygon": [
+        [
+            [
+            -95.2487151,
+            38.9621427
+            ],
+            [
+            -95.2487225,
+            38.9615774
+            ],
+            [
+            -95.2489154,
+            38.9611851
+            ],
+            [
+            -95.2484851,
+            38.9609948
+            ],
+            [
+            -95.2481587,
+            38.9615716
+            ],
+            [
+            -95.2484555,
+            38.9616697
+            ],
+            [
+            -95.2484332,
+            38.9621369
+            ],
+            [
+            -95.2487151,
+            38.9621427
+            ]
+        ]
+    ],
+            "permit_types": ["Staff and Faculty", "Student"],
+            "regular_schedule": {
+                "monday-friday" : [{"free_access_after": "16:00"},{"permit_parking": "08:00-16:00"}],
+                "weekend" : {"student_access": true}
+            },
+            "semester_overrides" : {
+                "summer" : {"student_access" : false, "all_day": false},
+                "finals_week" : {"student_access": true}
+            },
+            "manual_override" : null            
+        },
+        {
+            "id":"lot_60",
+            "name":"lot_60 - North District",
+            "type" : "permit",
+            "polygon": [
+        [
+            [
+            -95.2481365,
+            38.9615716
+            ],
+            [
+            -95.2483516,
+            38.9610352
+            ],
+            [
+            -95.2479658,
+            38.9609198
+            ],
+            [
+            -95.2476988,
+            38.9613986
+            ],
+            [
+            -95.2481365,
+            38.9615716
+            ]
+        ]
+    ],
+            "permit_types": ["Staff and Faculty", "Student"],
+            "regular_schedule": {
+                "monday-friday" : [{"free_access_after": "16:00"},{"permit_parking": "08:00-16:00"}],
+                "weekend" : {"student_access": true}
+            },
+            "semester_overrides" : {
+                "summer" : {"student_access" : false, "all_day": false},
+                "finals_week" : {"student_access": true}
+            },
+            "manual_override" : null            
+        },
+        {
+            "id":"lot_96",
+            "name":"lot_96 - North District",
+            "type" : "permit",
+            "polygon": [
+        [
+            [
+            -95.2451015,
+            38.9643185
+            ],
+            [
+            -95.2442001,
+            38.9643154
+            ],
+            [
+            -95.244232,
+            38.9639091
+            ],
+            [
+            -95.2445392,
+            38.9639091
+            ],
+            [
+            -95.2448463,
+            38.9640114
+            ],
+            [
+            -95.2450656,
+            38.9641603
+            ],
+            [
+            -95.2451015,
+            38.9643185
+            ]
+        ]
+    ],
+            "permit_types": ["Student"],
+            "regular_schedule": {
+                "monday-friday" : [{"free_access_after": "17:00"},{"permit_parking": "07:00-17:00"}],
+                "weekend" : {"student_access": true}
+            },
+            "semester_overrides" : {
+                "summer" : {"student_access" : true, "all_day": true},
+                "finals_week" : {"student_access": true}
+            },
+            "manual_override" : null            
+        },
+        {
+            "id":"lot_53",
+            "name":"lot_53 - North District",
+            "type" : "permit",
+            "polygon": [
+        [
+            [
+            -95.24421277164551,
+            38.9636049996617
+            ],
+            [
+            -95.24415057487366,
+            38.9636049996617
+            ],
+            [
+            -95.24415057487366,
+            38.96091487776303
+            ],
+            [
+            -95.24421277164551,
+            38.96091487776303
+            ],
+            [
+            -95.24421277164551,
+            38.9636049996617
+            ]
+        ]
+    ],
+            "permit_types": ["Staff and Faculty", "Student"],
+            "regular_schedule": {
+                "monday-friday" : [{"free_access_after": "16:00"},{"permit_parking": "08:00-16:00"}],
+                "weekend" : {"student_access": true}
+            },
+            "semester_overrides" : {
+                "summer" : {"student_access" : false, "all_day": false},
+                "finals_week" : {"student_access": true}
+            },
+            "manual_override" : null            
+        },
+        {
+            "id":"lot_91North",
+            "name":"lot_91North - North District",
+            "type" : "permit",
+            "polygon": [
+        [
+            [
+            -95.2454180055838,
+            38.96071574094802
+            ],
+            [
+            -95.24441999881928,
+            38.96071574094802
+            ],
+            [
+            -95.24441999881928,
+            38.960655738806366
+            ],
+            [
+            -95.2454180055838,
+            38.960655738806366
+            ],
+            [
+            -95.2454180055838,
+            38.96071574094802
+            ]
+        ]
+    ],
+            "permit_types": ["Staff and Faculty", "Student"],
+            "regular_schedule": {
+                "monday-friday" : [{"free_access_after": "16:00"},{"permit_parking": "08:00-16:00"}],
+                "weekend" : {"student_access": true}
+            },
+            "semester_overrides" : {
+                "summer" : {"student_access" : false, "all_day": false},
+                "finals_week" : {"student_access": true}
+            },
+            "manual_override" : null            
+        },
+        {
+            "id":"lot_91South",
+            "name":"lot_91South - North District",
+            "type" : "permit",
+            "polygon": [
+        [
+            [
+            -95.2454746,
+            38.9606277
+            ],
+            [
+            -95.24441159260999,
+            38.9606277
+            ],
+            [
+            -95.24441159260999,
+            38.96026821146074
+            ],
+            [
+            -95.2454746,
+            38.96026821146074
+            ],
+            [
+            -95.2454746,
+            38.9606277
+            ]
+        ]
+    ],
+            "permit_types": ["Staff and Faculty"],
+            "regular_schedule": {
+                "monday-friday" : [{"free_access_after": "17:00"},{"permit_parking": "07:00-17:00"}],
+                "weekend" : {"student_access": true}
+            },
+            "semester_overrides" : {
+                "summer" : {"student_access" : false, "all_day": false},
+                "finals_week" : {"student_access": false}
+            },
+            "manual_override" : null            
+        },
+        {
+            "id":"MSPK",
+            "name":"MSPK - North District",
+            "type" : "paid",
+            "polygon": [
+        [
+            [
+            -95.24386391532241,
+            38.961018687954294
+            ],
+            [
+            -95.24302017456137,
+            38.961018687954294
+            ],
+            [
+            -95.24302017456137,
+            38.960247680814945
+            ],
+            [
+            -95.24386391532241,
+            38.960247680814945
+            ],
+            [
+            -95.24386391532241,
+            38.961018687954294
+            ]
+        ]
+    ],
+            "permit_types": ["Staff and Faculty"],
+            "first_hour": "2.25",
+            "hourly rate" : "2.00",
+            "manual_override" : null            
+        },
+    ],
+
+
+
+    "west_district" : [
+        {
+            "id":"lot_name",
+            "name":"lot_name - Campus Region",
+            "polygon": "coords",
+            "permit_types": ["S", "A"],
+            "regular_schedule": {
+                "monday-friday" : {"student_access_after": "17:00"},
+                "weekend" : {"student_access": true}
+            },
+            "semester_overrides" : {
+                "summer" : {"student_access" : true, "all_day": true},
+                "finals_week" : {"student_access": false}
+            },
+            "manual_override" : null            
+        }
+    ]
+}
